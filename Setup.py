@@ -17,8 +17,8 @@ try:
         try:
             import webbrowser
             from Program.Config.Config import telegram, gunslol
-            webbrowser.open(f'}')
-            webbrowser.open(f'https://{lol}')
+            webbrowser.open(f'https://{telegram}')
+            webbrowser.open(f'https://{gunslol}')
         except: pass
 
     if sys.platform.startswith("win"):
@@ -27,7 +27,7 @@ try:
         os.system("python -m pip install --upgrade pip")
         os.system("python -m pip install -r requirements.txt")
         OpenSites()
-        os.system("python RedTiger.py")
+        os.system("python LegitPanel.py")
 
     elif sys.platform.startswith("linux"):
         os.system("clear")
